@@ -390,7 +390,7 @@ img {
 .prosto-pasta {
   padding-top: 100px;
   text-align: center;
-  background-image: radial-gradient(circle at top, var(--primary-color) 35%, var(--light-grey-color) 35%, var(--light-grey-color) 100%);
+  background-image: radial-gradient(circle at top, var(--primary-color) 37%, var(--light-grey-color) 37%, var(--light-grey-color) 100%);
 }
 
 .prosto-pasta__title {
