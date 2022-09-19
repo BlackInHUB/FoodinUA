@@ -62,6 +62,7 @@
 }
 
 .products-list__item-title {
+    text-align: left;
     margin-top: 12px;
     font-size: 22px;
     line-height: 1.27;
@@ -77,7 +78,7 @@
     line-height: 1.27;
 }
 
-.roducts-list__item-weight {
+.products-list__item-weight {
     color: var(--weight-color);
 }
 

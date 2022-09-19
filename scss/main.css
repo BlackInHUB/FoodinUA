@@ -212,6 +212,7 @@ img {
 }
 
 .products-list__item-title {
+  text-align: left;
   margin-top: 12px;
   font-size: 22px;
   line-height: 1.27;
@@ -227,7 +228,7 @@ img {
   line-height: 1.27;
 }
 
-.roducts-list__item-weight {
+.products-list__item-weight {
   color: var(--weight-color);
 }
 
@@ -388,7 +389,7 @@ img {
 .prosto-pasta {
   padding-top: 100px;
   text-align: center;
-  background-image: radial-gradient(circle at top, var(--primary-color) 60%, var(--light-grey-color) 60%, var(--light-grey-color) 100%);
+  background-image: radial-gradient(circle at top, var(--primary-color) 35%, var(--light-grey-color) 35%, var(--light-grey-color) 100%);
 }
 
 .prosto-pasta__title {
