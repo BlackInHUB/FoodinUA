@@ -242,7 +242,7 @@ img {
   padding-bottom: 142px;
   text-align: center;
   background-color: var(--dark-color);
-  background-image: radial-gradient(ellipse at center, rgba(7, 5, 6, 0.5) 20%, rgb(7, 5, 6) 80%), url("/images/snextime-bg.jpg");
+  background-image: radial-gradient(ellipse at center, rgba(7, 5, 6, 0.5) 20%, rgb(7, 5, 6) 80%), url("../images/snextime-bg.jpg");
   background-size: contain;
 }
 
