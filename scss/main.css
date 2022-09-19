@@ -242,7 +242,7 @@ img {
   padding-bottom: 142px;
   text-align: center;
   background-color: var(--dark-color);
-  background-image: radial-gradient(ellipse at center, rgba(7, 5, 6, 0.5) 20%, rgb(7, 5, 6) 80%), url("/images/snextime-bg_left.jpg"), url("/images/snextime-bg_right.jpg");
+  background-image: radial-gradient(ellipse at center, rgba(7, 5, 6, 0.5) 20%, rgb(7, 5, 6) 80%), url("/images/snextime-bg.jpg");
   background-size: contain;
 }
 
@@ -286,7 +286,8 @@ img {
 
 .img-left {
   z-index: 99;
-  left: -10%;
+  left: -5%;
+  top: 5%;
   transition: transform 250ms linear;
 }
 .img-left:hover,
@@ -310,7 +311,7 @@ img {
 .img-right {
   z-index: 97;
   right: -10%;
-  top: 5%;
+  top: 10%;
   transition: transform 250ms linear;
 }
 .img-right:hover,
