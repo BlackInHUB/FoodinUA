@@ -1,0 +1,84 @@
+.prosto-pasta {
+    padding-top: 100px;
+    text-align: center;
+    background-image: radial-gradient(circle at top, 
+    var(--primary-color) 60%, 
+    var(--light-grey-color) 60%, 
+    var(--light-grey-color) 100%);
+}
+
+.prosto-pasta__title {
+    font-size: 72px;
+    line-height: 1.11;
+    font-weight: 400;
+    margin-top: 114px;
+}
+
+.prosto-pasta__text {
+    margin-top: 24px;
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 400;
+}
+
+.prosto-pasta__img-wrapper {
+    margin: 0 auto;
+    margin-top: 97px;
+    margin-bottom: 62px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-img {
+    z-index: 100;
+    position: relative;
+    height: 100%;
+}
+
+.penats-left,
+.penats-right {
+    z-index: 99;
+}
+
+.penats-left {
+    position: absolute;
+    transform: translate(-43%, -15%);
+}
+
+.penats-right {
+    position: absolute;
+    transform: translate(55%, -10%);
+}
+
+.prosto-pasta-about {
+    margin-top: 153px;
+    display: flex;
+}
+
+.prosto-pasta-about__text-wrapper {
+    margin: auto 0;
+    margin-left: 90px;
+    text-align: left;
+}
+
+.prosto-pasta-about__text {
+    font-size: 22px;
+    line-height: 1.27;
+    margin-bottom: 20px;
+}
+
+.prosto-pasta-about__list-item {
+    font-size: 20px;
+    line-height: 1.4;
+
+    &::before {
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background-color: var(--dark-color);
+            margin-right: 15px;
+        }
+}

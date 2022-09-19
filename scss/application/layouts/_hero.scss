@@ -1,0 +1,83 @@
+.hero {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding-top: 63px;
+}
+
+.hero__logo-link {
+    display: block;
+    margin: 0 auto;
+}
+
+.hero__title {
+    font-size: 72px;
+    line-height: 1.11;
+    font-family: var(--font-family);
+    margin-top: 58px;
+    font-weight: 400;
+}
+
+.hero__info {
+    margin-top: 24px;
+    font-size: 32px;
+    font-family: var(--font-family);
+}
+
+.benefits-list {
+    margin-top: 80px;
+    display: flex;
+}
+
+.benefits-list__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 65px;
+    padding: 65px 40px 60px 40px;
+    background-color: var(--white-color);
+    box-shadow: 0 1px 6px 2px #8a8989;
+    transition: transform 250ms linear;
+    
+    &:not(:last-child) {
+        margin-right: 60px;
+    }
+
+    &:hover,
+    :focus {
+        transform: rotate(0deg);
+    }
+}
+
+.first {
+    transform: rotate(-2deg);
+}
+
+.second {
+    transform: rotate(3deg);
+}
+
+.last {
+    transform: rotate(-3deg);
+}
+
+.benefits-list__item-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.benefits-list__item-title{
+    font-size: 32px;
+    line-height: 1.25;
+}
+
+.benefits-list__item-text{
+    font-size: 20px;
+    line-height: 1.4;
+    margin-top: 16px;
+}

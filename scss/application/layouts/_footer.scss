@@ -1,0 +1,40 @@
+.footer {
+    margin-top: -35px;
+    background-color: var(--dark-color);
+    padding: 54px 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo-icon {
+    fill: var(--white-color);
+}
+
+.made-in-ukraine {
+    display: flex;
+}
+
+.made-in-ukraine-text {
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--white-color);
+    margin-left: 12px;
+}
+
+
+.partnership {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.parthership__title{
+    color: var(--weight-color);
+}
+
+
+.partnership__link {
+    color: var(--white-color);
+}
